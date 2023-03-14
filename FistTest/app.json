@@ -10,19 +10,24 @@
   "help": "",
   "url": "",
   "logo": "",
+  "target": "OnPrem",
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "19.0.0.0",
+  "application": "21.0.0.0",
   "idRanges": [
     {
-      "from": 50120,
+      "from": 50100,
       "to": 50149
     }
   ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  }
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "10.0",
+  "features": [
+    "NoImplicitWith"
+  ]
 }
